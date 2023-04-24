@@ -112,7 +112,7 @@ def app():
             return text
         
         if st.button('Load Dataset'):  
-            df = pd.read_csv('DyeingOfHairsv')
+            df = pd.read_csv('DyeingOfHair.csv')
 
             #remember this very useful function to randomly rearrange the dataset
             train = shuffle(df)
